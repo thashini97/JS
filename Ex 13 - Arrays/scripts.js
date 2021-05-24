@@ -27,17 +27,20 @@ console.log(std1);
 
 // Add elements
 std1.push('green');
+console.log("afetr use push : "+std1);
 std1.unshift('Mr.');
-console.log(std1);
+console.log("afetr use unshift : "+std1);
 
 // Remove elements
 std1.pop();
 std1.pop();
+console.log("after use pop :" +std1);
 std1.shift();
-console.log(std1);
+console.log("after use shift: " +std1);
 
 // Get index of an element
-console.log(std1.indexOf(22));
+console.log("index no of 22: " +std1.indexOf(22));
+console.log("index no of 25: " +std1.indexOf(25));
 
 var isAgriStudent = std1.indexOf('Agri') === -1 ? std1[0]+' is not a Agri student' : std1[0]+' is a Civil student';
 
