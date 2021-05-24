@@ -5,9 +5,12 @@
 /*
     Remember the tip calculator challenge? Let's create a more advanced versio using Objects and Loops.
 
-    Dasun and his freinds went on a picnic. To get food they went to 5 different restaurants for each meal. The bills are Rs. 1230, Rs. 982, Rs. 1640, Rs. 1460, Rs. 944.
+    Dasun and his freinds went on a picnic. To get food they went to 5 different restaurants for each meal. 
+    The bills are Rs. 1230, Rs. 982, Rs. 1640, Rs. 1460, Rs. 944.
 
-    To tip the waiter a fair amount, Dasun created a simple tip calculator (as a function). He likes to tip 20% of the bill when the bill is less than Rs. 1000, 15% when the bill is between Rs. 1000 and Rs. 1500, and 10% if the bill is more than Rs. 1500.
+    To tip the waiter a fair amount, Dasun created a simple tip calculator (as a function). 
+    He likes to tip 20% of the bill when the bill is less than Rs. 1000, 15% when the bill is between Rs. 1000 and Rs. 1500, 
+    and 10% if the bill is more than Rs. 1500.
 
     Implement a Tip calculator using Objects & Loops:
     1. Create an object with an array for bill values

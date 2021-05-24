@@ -19,16 +19,16 @@ var amount = new Array();
 function tipCalculator(bill){
     var tip;
     if(bill < 1000){
-        // Calculate
-        tip = bill * (20 / 100);
+ 
+        tip = bill * (0.2);
     }
     else if(bill >= 1000 && bill < 1500){
-        // Calculate
-        tip = bill * (15 / 100);
+
+        tip = bill * (0.15);
     }
     else{
-        // Calculate
-        tip = bill * (10 / 100);
+
+        tip = bill * (0.1);
     }
 
     // Store in array
@@ -38,7 +38,7 @@ function tipCalculator(bill){
     return tip;
 }
 
-// Calling
+// Calling functions
 console.log('1 - Tip : '+tipCalculator(1230));
 console.log('2 - Tip : '+tipCalculator(982));
 console.log('3 - Tip : '+tipCalculator(1640));

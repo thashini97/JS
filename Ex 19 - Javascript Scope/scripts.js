@@ -9,7 +9,8 @@
 */ 
 
 // --Local Variables--
-// Variables declared within a JavaScript function, They can only be accessed from within the function. Local variables are deleted when the function is completed.
+// Variables declared within a JavaScript function, They can only be accessed from within the function. 
+//Local variables are deleted when the function is completed.
 function addNum(){
     var a = 10;
     var b = 20;
@@ -18,7 +19,7 @@ function addNum(){
 
 // Calling
 addNum();
-// console.log(a);
+//console.log(a); ReferenceError: a is not defined
 
 // --Global Variables--
 // A variable declared outside a function, All scripts and functions on a web page can access it. In a web browser, global variables are deleted when you close the browser window (or tab)
@@ -29,6 +30,5 @@ function mySub(){
 }
 
 // Calling
-mySub();
 mySub();
 console.log(subject);

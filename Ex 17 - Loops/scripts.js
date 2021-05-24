@@ -15,13 +15,7 @@ console.log(3);
 for(var i=0; i<10; i++){ // i += 1 => i = i + 1
     console.log(i);
 }
-/*
-    i = 0, 0 < 10 true, log i to the console, i++
-    i = 1, 1 < 10 true, log i to the console, i++
-    ...
-    i = 9, 9 < 10 true, log i to the console, i++
-    i = 10, 10 < 10 false, exit the loop
-*/
+
 
 for(var i=10; i>0; i--){
     console.log(i);
@@ -38,6 +32,7 @@ for(var i = 0; i < students.length; i++){
 var person = {fname:"Chamara", lname:"Silva", age:25};
 var i;
 for(i in person){
+    console.log(i);
     console.log(person[i]);
 }
 
@@ -71,13 +66,15 @@ var data = ['Saman','Galle',1996,'Maths',true,'Chocolate'];
 // Continue
 // If a specified condition occurs, and continues with the next iteration in the loop.
 for(var i = 0; i < data.length; i++){
-    if(typeof(data[i]) !== 'string') continue;
+    if(typeof(data[i]) !== 'string') 
+        continue;
     console.log(data[i]);
 }
 
 // Break
 // Breaks the loop and continues executing the code after the loop (if any)
 for(var i = 0; i < data.length; i++){
-    if(typeof(data[i]) !== 'string') break;
+    if(typeof(data[i]) !== 'string') 
+        break;
     console.log(data[i]);
 }

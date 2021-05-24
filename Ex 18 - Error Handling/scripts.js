@@ -43,4 +43,6 @@ function findLargest(a, b, c){
 }
 
 // Calling
-findLargest(7,7,5);
+findLargest(7,4,5);
+findLargest(7,5,'4');
+findLargest(7,7,4);

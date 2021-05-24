@@ -49,7 +49,7 @@ console.log(nimal.firstName);
 console.log(nimal['lastName']);
 var x = 'age';
 console.log(nimal[x]);
-console.log(nimal.subjects[2]);
+console.log(nimal.subjects);
 console.log(nimal['subjects'][3]);
 console.log(nimal.degree.name);
 console.log(nimal['degree'].credits);

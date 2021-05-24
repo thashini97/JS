@@ -21,18 +21,15 @@ kasun.mass = prompt("Enter Kasun's mass : ");
 kasun.height = prompt("Enter Kasun's height : ");
 
 // Add properties to Chamal
-chamal.fullName = prompt("Enter Chamal,s full name : ");
-chamal.mass = prompt("Enter Chamal,s mass : ");
-chamal.height = prompt("Enter Chamal,s height : ");
+chamal.fullName = prompt("Enter Chamal's full name : ");
+chamal.mass = prompt("Enter Chamal's mass : ");
+chamal.height = prompt("Enter Chamal's height : ");
 
 // Add bmi() method for both
 kasun.bmi = chamal.bmi = function(){
     this.bmiVal = this.mass / (this.height**2);
     return this.bmiVal;
 }
-
-console.log(kasun);
-console.log(chamal);
 
 // Find the highest BMI
 if(kasun.bmi() > chamal.bmi()){
