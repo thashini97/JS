@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+
+    <style>
+        *{
+            margin : 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+
+        }
+
+        nav{
+            background-color: #ebca14;
+            max-width: 400px;
+            margin: 0 auto;
+            height: 50px;
+            line-height: 50px;
+            padding-left: 20px;
+        }
+
+        .container .frm,
+        .container .list,
+        .container .list1{
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 10px;   
+
+        }
+
+        .container form{
+            display: flex;
+            justify-content: space-evenly;
+            align-items : center;
+            margin: 20px 0;
+
+        }
+        .container form input{
+            border: groove;
+        }
+
+        .container form input,
+        .container form select{
+            height: 30px;
+
+        }
+
+        .container button{
+            padding: 7px 20px;
+            border: none;
+            background-color: #ebca14;
+            cursor: pointer;
+        }
+
+        .container .list ul{
+            list-style: none;
+            margin-top: 10px;
+        }
+
+        .container .list ul li{
+            padding: 20px;
+            border: 1px solid #000;
+            border-radius: 10px;
+            margin-bottom: 2px;
+            border-style: none;
+        }
+        .container .list1 ul{
+            list-style: none;
+            margin-top: 10px;
+        }
+
+        .container .list1 ul li{
+            display: inline-block;
+            padding: 20px;
+            border: 1px solid #000;
+            border-radius: 10px;
+            margin-bottom: 2px;
+            margin-left: 50px;
+            margin-right: 50px;
+            border-style: none;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!--navigation-->
+    <nav id="navbar">
+        <h2 id="hdt">Shopping list</h2>
+    </nav>
+
+    <!--container-->
+    <div class="container">
+        <div class="frm">
+            <h3 style = "text-transform: uppercase ;"id="frmt">ADD items</h3>
+            <form action="">
+                <input type="text">
+                <select>
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                    <option value="yellow">Yellow</option>
+
+                </select>
+                <button type="submit">Submit</button>
+            </form>
+         </div>
+       
+    <div class="list">
+        <h3>Shoping Items</h3>
+        <ul id ="li-items">
+            <li class="items">item 1</li>
+            <li class="items">item 2</li>
+            <li class="items">item 3</li>
+            <li class="items">item 4</li>
+            <li class="items">item 5</li>
+        </ul>
+    </div>
+
+    <div class="list1">
+        <h3>Payment type</h3>
+        <ul id ="li-pay">
+            <li class="pays">Cash</li>
+            <li class="pays">Card</li>
+        </ul>
+    </div>
+    </div>
+</body>
+
+<!-- External Javascript -->
+<script src="./script1.js"></script>
+
+</html>
