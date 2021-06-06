@@ -62,3 +62,24 @@ for ( var i =0; i<payment.length; i++){
 }
 
 //--- select element using query selectors
+var hd1 = document.querySelector('#navbar');
+hd1.style.boarder   = 'solid 3px #000';
+
+var itemSelect = document.querySelector('.items');
+itemSelect.style.boarder = 'solid 2px #000';
+
+//--select all elements using query selector all
+var hd2 = document.querySelectorAll('#hdt');
+console.log(hd2);
+
+var dv = document.querySelectorAll('div');
+console.log(dv);
+
+//--grab all the odd list
+var odd = document.querySelectorAll('li.items:nth-child(odd)');
+var even = document.querySelectorAll('li-items:nth-child(even)');
+console.log(odd);
+
+for(var i of odd){
+    i.style.backgroundColor = '#828B92';
+}
