@@ -1,6 +1,5 @@
-# JS
-javascript basic codes.
+# javascript basic codes.
 Core technology of web development:
-HTML - markup language 
-CSS - styling language
-Javascript - functionalities
+HTML - markup language ,
+CSS - styling language ,
+Javascript - functionalities.
